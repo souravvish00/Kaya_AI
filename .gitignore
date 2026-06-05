@@ -1,0 +1,15 @@
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+node_modules/
+dist/
+.vite/
+
+logs/
+uploads/
+data/conversations/daily/*.jsonl
+data/memory/user_memory.json
+data/datasets/train/*.jsonl
+data/datasets/training_jobs.json
+pytest-cache-files-*/
