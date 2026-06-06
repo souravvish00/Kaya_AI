@@ -1,15 +1,81 @@
-.pytest_cache/
-__pycache__/
+# Python
+
+**pycache**/
 *.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# Node.js
 
 node_modules/
+npm-debug.log*
+
+# Frontend Build
+
 dist/
+build/
 .vite/
 
+# Logs
+
 logs/
+*.log
+
+# Uploads & Generated Data
+
 uploads/
-data/conversations/daily/*.jsonl
-data/memory/user_memory.json
-data/datasets/train/*.jsonl
+
+# Application Data
+
+data/conversations/
+data/memory/
+data/datasets/train/
 data/datasets/training_jobs.json
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+
+.env
+.env.*
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# Cache
+
+.cache/
 pytest-cache-files-*/
+
+
+# LLM files
+models/
+llm/
+*.gguf
+*.bin
+*.safetensors
+
+# Data
+uploads/
+logs/
+data/

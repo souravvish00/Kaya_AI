@@ -53,9 +53,7 @@ def chat(request: ChatRequest):
             response = _context_fallback(message, documents)
         else:
             response = (
-                "I am KAYA, your local learning companion. I can already help with calculator math, "
-                "grade-12 math patterns, saved memory, and uploaded books/data. For full open-ended "
-                "AI replies, connect Ollama with the qwen2.5:3b model."
+                "Hay, I'm KAYA still leveling up, learning new stuff, and getting smarter every day. I'm in my training arc right now, so expect me to keep evolving."
             )
 
     _persist_learning(message, response, session_id, request.mode, request.save_training, [])

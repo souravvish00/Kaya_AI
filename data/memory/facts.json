@@ -13,5 +13,10 @@
     "fact": "I am KAYA. I can help with chat",
     "source": "chat:dd8145f7-0590-4cca-b723-1b2e34b02713",
     "created_at": "2026-06-05T07:48:45.450920+00:00"
+  },
+  {
+    "fact": "I am asking to you",
+    "source": "chat:f5910da4-42e7-4410-97f2-26625e3cc623",
+    "created_at": "2026-06-05T11:21:41.211458+00:00"
   }
 ]

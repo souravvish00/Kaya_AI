@@ -23,7 +23,7 @@ export default function Chat() {
     {
       role: 'assistant',
       content:
-        'Hi, I am KAYA. I can help with chat, books/data, training examples, and grade-12 math. Ask me naturally, like 56+98 or solve quadratic x^2 - 5x + 6 = 0.',
+        "Hay, I'm KAYA still leveling up, learning new stuff, and getting smarter every day.I'm in my training arc right now, so expect me to keep evolving.",
     },
   ]);
   const [isSending, setIsSending] = useState(false);

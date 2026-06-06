@@ -9,7 +9,7 @@ echo.
 echo ==============================
 echo Starting KAYA local workspace
 echo ==============================
-echo.
+echo.  
 
 where python >nul 2>nul
 if errorlevel 1 (
